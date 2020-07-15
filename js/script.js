@@ -19,7 +19,7 @@ function palindroma(string){
     ris += string[i];
   }
   if((numeri.test(string) == true) || (carSpec.test(string) == true) || (string == '') ||(string.length <2)){
-    return 'Questa volta ti perdono';
+    return 'Per questa volta ti perdono';
   } else if(ris == string){
     return "E' una parola palindroma";
   } else {
